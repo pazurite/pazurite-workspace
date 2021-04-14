@@ -9,7 +9,8 @@
     "build-report": "webpack-bundle-analyzer --port 9700 dist/stats.json",
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "prettier app --write",
-    "lint:style": "stylelint app"
+    "lint:style": "stylelint app",
+    "ts": "ts-node"
   },
   "keywords": [],
   "author": "",
